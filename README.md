@@ -10,6 +10,9 @@ or
 $ conda install --file requirements.txt
 ```
 
+
+## Getting started
+
 1. Copy file `examples/login.py` into `src/login.py` and implement methods:
     1. `get_thread` -> Can be found in the messenger URL for a groupchat
     2. `get_user` -> Username / email
