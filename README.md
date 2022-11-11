@@ -1,5 +1,10 @@
 # sommartorpet-stats
 
-1. Implement file `src/login.py` with methods `get_thread`, `get_user`, `get_passwd`, `get_cookies`
-2. Run `src/fetch_convo_data.py`
-3. Run other analytic scripts
+1. Copy file `examples/login.py` into `src/login.py` and implement methods:
+  1. `get_thread`
+  2. `get_user`
+  3. `get_passwd`
+  4. `get_cookies`
+2. Add correct path in `constants.py` for data storage
+3. Run `src/fetch_convo_data.py` to fetch conversational data
+4. Run other analytic scripts
