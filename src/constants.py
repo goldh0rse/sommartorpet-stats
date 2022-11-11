@@ -1,4 +1,4 @@
-authors = {
+authors = { # This is only local example
     724041795:"Klas",
     552654411:"Jonas",
     1517773660:"Fredrik",
@@ -32,5 +32,5 @@ names = [
     'axel'
 ]
 
-data_path = "~/repos/sommartorpet/data/conv_data.csv"
-dist_path = "~/repos/sommartorpet/data/freq_dist.csv"
+data_path = "~/repos/sommartorpet-stats/data/conv_data.csv"
+dist_path = "~/repos/sommartorpet-stats/data/freq_dist.csv"
