@@ -1,0 +1,8 @@
+# MAC
+.DS_store
+
+# DATA
+data/*
+
+# LOGIN STUFF
+src/login.py
