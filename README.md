@@ -1,4 +1,14 @@
 # sommartorpet-stats
+fbchat analysis project
+
+## Install dependencies
+``` 
+$ pip install -r requirements.txt
+```
+or
+```
+$ conda install --file requirements.txt
+```
 
 1. Copy file `examples/login.py` into `src/login.py` and implement methods:
     1. `get_thread` -> Can be found in the messenger URL for a groupchat
