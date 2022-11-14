@@ -3,6 +3,10 @@
 
 # DATA
 data/*
+notebooks/data/*
 
 # LOGIN STUFF
 src/login.py
+
+# Python
+__pycache__

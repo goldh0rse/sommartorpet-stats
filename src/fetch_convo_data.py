@@ -56,7 +56,7 @@ def fetch_data(timestamp=None):
             if first_time:
                 write_output(msg_lst)
                 first_time = False
-            print(f"Retrying fetch #{fetches:3}, attempt #:{attempt:2}")
+            print(f"Retrying fetch #{fetches:0<3}, attempt #:{attempt:2}")
             attempt += 1
             time.sleep(__TIMEBUFFER__ * 4)
             continue
@@ -66,7 +66,7 @@ def fetch_data(timestamp=None):
             msg_lst.append(msg) 
         fetches += 1
         attempt = 1
-        print(f"Fetch #{fetches:3}, msg-count: {len(msg_lst):10}")
+        print(f"Fetch #{fetches:0<3}, msg-count: {len(msg_lst):10}")
         time.sleep(__TIMEBUFFER__)
         
     return msg_lst
